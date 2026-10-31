@@ -7,7 +7,7 @@
 - Original Sites publication and custom domain are outside this preview's scope.
 
 ## Current status
-Implementation in progress. Independent review and GitHub upload pending.
+Complete for team testing. Independent review approved; source and static build uploaded to the private GitHub repository.
 
 ## Implementation and review complete
 | Feedback | Status | Reviewer confirmation |
@@ -37,4 +37,7 @@ Independent reviewer: review_lnt — approved for team testing. Independently re
 - Enable GitHub Pages (eligible paid plan required for private repository) using main → /docs. Instructions in README.md.
 
 ## Upload
-Reviewed source and committed static build being uploaded to private guerakun/lnt-excellence-preview. Final verification recorded after upload.
+Uploaded reviewed source, images, clean dependency lockfile, and static docs/ build to private guerakun/lnt-excellence-preview on main. Verified remote docs/index.html and repository private visibility after updating the branch. Implementation commit: a061800e3a69a1db63f3f347fb06414bbdb47df9. GitHub Pages is ready to be enabled by the user; no live GitHub-hosted URL is claimed.
+
+## Morning summary
+All seven preview improvements completed and independently reviewed. Source and static build are in GitHub. Email remains an intentional placeholder. Team can enable main /docs in Settings → Pages if the GitHub plan supports private-repository Pages. No scheduled task is needed: this work is complete.
