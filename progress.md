@@ -41,3 +41,9 @@ Uploaded reviewed source, images, clean dependency lockfile, and static docs/ bu
 
 ## Morning summary
 All seven preview improvements completed and independently reviewed. Source and static build are in GitHub. Email remains an intentional placeholder. Team can enable main /docs in Settings → Pages if the GitHub plan supports private-repository Pages. No scheduled task is needed: this work is complete.
+
+
+## About illustration update — 2026-10-31
+- Replaced only the About section cargo image with the approved world map, routes, and charts (formulas and numeric table removed). Header image retained.
+- Prepared a web-optimized WebP asset from the approved generated PNG; square frame shows the full composition and alt text describes the new image.
+- Rebuilt static docs/ and refreshed the downloadable standalone preview.
