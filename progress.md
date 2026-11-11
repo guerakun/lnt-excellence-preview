@@ -47,3 +47,6 @@ All seven preview improvements completed and independently reviewed. Source and 
 - Replaced only the About section cargo image with the approved world map, routes, and charts (formulas and numeric table removed). Header image retained.
 - Prepared a web-optimized WebP asset from the approved generated PNG; square frame shows the full composition and alt text describes the new image.
 - Rebuilt static docs/ and refreshed the downloadable standalone preview.
+
+## Contact recipient update — 2026-11-10
+- Set the inquiry recipient to contact@lntexcellence.com. The form opens a prefilled email draft; it does not send automatically.
