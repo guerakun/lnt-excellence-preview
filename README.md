@@ -1,22 +1,18 @@
-# LNT Excellence — team testing preview
+# LNT Excellence
 
-Private source repository with a prebuilt static site in `docs/`. The inquiry form prepares a draft addressed to contact@lntexcellence.com. Visitors send it from their email app. Original Sites publication is unchanged.
+React/Vite source for the LNT Excellence one-page website. Production is hosted on Netlify at https://lntexcellence.com/. This repository also includes a separate GitHub Pages build for team review.
 
-## Enable temporary GitHub Pages
-1. Confirm this account has a plan supporting Pages from private repositories (Pro/Team/Enterprise).
-2. Repository Settings → Pages → Build and deployment → Deploy from a branch.
-3. Choose `main` and `/docs`, then Save.
-4. Use the URL GitHub reports, normally https://guerakun.github.io/lnt-excellence-preview/ . This expected URL is not a verified deployment.
+## Build
 
-Pages normally makes the rendered preview publicly accessible even though this repository is private. `noindex` discourages search indexing; it is not access control. Do not connect lntexcellence.com for this test.
+Use Node 22.13+ and run `npm ci` followed by `npm run check`.
 
-## Build / update
-Use Node 22.13+ (Node 22.12+ Vite minimum). Run `npm install`, `npm run check`, then `npm run build`. Commit source and generated `docs/` together. No Actions workflow is necessary; the committed build avoids workflow-token permissions. The site uses relative asset paths for the repository subpath.
+| Target | Command | Output | Contact form |
+| --- | --- | --- | --- |
+| Netlify production | `npm run build` | `dist/` | Submits through Netlify Forms as `lnt-inquiry`. |
+| GitHub Pages preview | `npm run build:pages` | `docs/` | Opens an email draft; the visitor sends it from their email app. |
 
-## Contact configuration
-`src/contact-config.ts` sets the recipient to `contact@lntexcellence.com`. Empty means the form downloads a local draft and explicitly says nothing was sent. Use sample data for testing.
+For a manual Netlify update, upload the contents of `dist/` to the existing site. Keep form detection enabled and check delivery to the business inbox after deployment. Notification delivery is configured in Netlify.
 
-When a business inbox is confirmed, set that value and rebuild. The configured action opens a `mailto:` draft; the visitor must send it from their own email app. Automated delivery requires a separate form backend/provider, spam protection, and end-to-end receipt testing. Never put API keys in frontend code. No email address is inferred from personal accounts.
+For GitHub Pages, commit `docs/` with the source. The preview uses relative asset paths and requests that search engines not index it. Anyone with the preview URL can still view it.
 
-## Review and remaining launch steps
-See `plans.md` and `progress.md`. This copy is for team feedback, not production launch. Confirm intended customer segments, proposed deliverables, and specialty labels with the founders before launch. No geographic coverage, client testimonials, or quantified business outcomes have been invented.
+See `plans.md` and `progress.md` for the project history.

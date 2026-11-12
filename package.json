@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node node_modules/vite/bin/vite.js --host 0.0.0.0",
     "build": "node node_modules/vite/bin/vite.js build",
-    "check": "node node_modules/typescript/bin/tsc --noEmit"
+    "check": "node node_modules/typescript/bin/tsc --noEmit",
+    "build:pages": "node node_modules/vite/bin/vite.js build --mode pages"
   },
   "dependencies": {
     "react": "19.2.6",

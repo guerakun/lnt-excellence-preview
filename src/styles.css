@@ -52,3 +52,50 @@
 
 /* Approved About illustration: retain full square composition. */
 .about-visual{min-height:0;aspect-ratio:1/1}.about-visual>img{object-fit:contain;object-position:center;filter:none}.about-visual:after{background:linear-gradient(0deg,#102e3866,transparent 25%)}
+
+.inquiry-fields{margin:0;padding:0;border:0;min-inline-size:0}
+
+/* Readable copy and controls without changing the headline scale. */
+.hero p { font-size: 1.125rem; }
+.intro-copy > p:not(.large-copy),
+.approach-left > p:not(.eyebrow),
+.about-copy > p:not(.eyebrow),
+.founder-copy > p:last-child,
+.contact-description { font-size: 1.0625rem; line-height: 1.7; }
+.audience-copy, .challenge-list li, .section-heading > p, .step p,
+.purpose-card p, .value p, .service-card > p, .service-detail {
+  font-size: 1rem; line-height: 1.65;
+}
+.service-detail p { font-size: inherit; }
+.service-card > p { min-height: 5em; }
+.nav, .button, .hero-actions .button, .text-link, .service-toggle,
+.service-detail .inline-link, .approach .inline-link { font-size: .9375rem; }
+.eyebrow, .hero .eyebrow { font-size: .75rem; }
+.founder-role, .footer-bottom { font-size: .8125rem; }
+.founder-specialty, .experience-strip span, .industry-list > div,
+.industry-footnote, .footer-top > a:last-child { font-size: .875rem; }
+.founder-copy .founder-specialty { font-size: .875rem; }
+.founder-copy h3 { overflow-wrap: anywhere; }
+.service-toggle svg, .button svg, .challenge-list svg, .industry-list svg { flex-shrink: 0; }
+.form-panel > p, .form-note, .form-status, form label { font-size: .875rem; }
+.form-panel > p, .form-note { color: #526b65; }
+.form-panel input, .form-panel select, .form-panel textarea { font-size: 1rem; min-width: 0; }
+.form-panel .form-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.form-panel input::placeholder, .form-panel textarea::placeholder { color: #526b65; opacity: 1; }
+
+@media (761px <= width <= 950px) {
+  .nav { gap: 14px; }
+  .nav-cta { margin-left: 0; padding-inline: 13px; }
+  .form-panel .form-row { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}
+
+@media (width <= 760px) {
+  .hero p, .intro-copy > p:not(.large-copy),
+  .approach-left > p:not(.eyebrow), .about-copy > p:not(.eyebrow),
+  .founder-copy > p:last-child, .contact-description { font-size: 1rem; }
+  .service-card > p { min-height: 0; }
+  .form-panel .form-row { grid-template-columns: minmax(0, 1fr); }
+  .industry-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .industry-list > div:nth-child(3) { border-right: 1px solid #d4e0d8; }
+  .industry-list > div:nth-child(even) { border-right: 0; }
+}

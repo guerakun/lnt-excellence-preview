@@ -50,3 +50,7 @@ All seven preview improvements completed and independently reviewed. Source and 
 
 ## Contact recipient update — 2026-11-10
 - Set the inquiry recipient to contact@lntexcellence.com. The form opens a prefilled email draft; it does not send automatically.
+
+## Production and preview sync
+- Synced the latest production source and assets, including the launch metadata, favicon, responsive typography, and mobile spacing fixes.
+- Added separate builds for Netlify production and GitHub Pages preview. Netlify uses native form submissions, while the preview opens an email draft and remains marked noindex.

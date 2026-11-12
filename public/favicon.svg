@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>LNT Excellence</title>
+  <g transform="translate(12.5 58) skewY(-24)">
+    <rect x="0" y="-22" width="11" height="22" rx="1" fill="#176c60"/>
+    <rect x="14" y="-30" width="11" height="30" rx="1" fill="#459781"/>
+    <rect x="28" y="-38" width="11" height="38" rx="1" fill="#8cc3aa"/>
+  </g>
+</svg>
