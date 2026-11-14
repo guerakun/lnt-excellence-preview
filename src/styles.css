@@ -99,3 +99,16 @@
   .industry-list > div:nth-child(3) { border-right: 1px solid #d4e0d8; }
   .industry-list > div:nth-child(even) { border-right: 0; }
 }
+
+/* Contact details, next steps and founder links */
+.contact-next{margin-top:34px;padding-top:26px;border-top:1px solid #ffffff2e;max-width:400px}
+.contact-next h3{font-size:.8125rem;letter-spacing:1.6px;text-transform:uppercase;color:var(--mint);margin-bottom:14px}
+.contact-next ol{margin:0 0 20px;padding-left:20px;color:#d6e4e2;font-size:.9375rem;line-height:1.7}
+.contact-next li{margin-bottom:6px}
+.contact-next p{font-size:.9375rem;color:#c0d1d0}
+.contact-next a,.footer-bottom a{color:#fff;border-bottom:1px solid #78c5ad;padding-bottom:2px}
+.footer-bottom a{color:#d6e4e2}
+.founder-link{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-size:.875rem;font-weight:600;color:var(--teal);border-bottom:1px solid #99b6aa;padding-bottom:4px}
+.value-list{grid-template-columns:repeat(4,1fr)}
+@media(max-width:760px){.value-list{grid-template-columns:1fr}}
+.form-panel{align-self:start}
