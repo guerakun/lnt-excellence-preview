@@ -54,3 +54,11 @@ All seven preview improvements completed and independently reviewed. Source and 
 ## Production and preview sync
 - Synced the latest production source and assets, including the launch metadata, favicon, responsive typography, and mobile spacing fixes.
 - Added separate builds for Netlify production and GitHub Pages preview. Netlify uses native form submissions, while the preview opens an email draft and remains marked noindex.
+
+## Copy and contact pass — 2026-11-14 (branch copy-and-contact-improvements)
+- One call-to-action label ("Start a conversation") across navigation, hero, service cards, approach and form.
+- Contact section: visible contact email, a "what happens next" list, plain form labels. Footer shows the email.
+- Link-sharing metadata (Open Graph, canonical) added to index.html.
+- First-pass copy rewrite following voice-guide.md. Mission, vision and biographies are unchanged pending the founder questionnaire.
+- Values reduced from five to four and reworded as commitments. Founders should confirm each one, and the "what happens next" steps.
+- Founder cards accept an optional LinkedIn link (empty until URLs are supplied).
