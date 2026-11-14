@@ -26,4 +26,4 @@ practical (as filler), stronger, excellence (outside the company name), solution
 
 - Mission and vision statements
 - The three founder biographies
-- The experience strip above the biographies
+
